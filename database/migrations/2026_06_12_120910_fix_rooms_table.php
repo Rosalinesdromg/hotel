@@ -8,6 +8,7 @@ return new class extends Migration
 {
     public function up()
     {
+        
         // Hapus tabel rooms lama yang kosong/salah
         Schema::dropIfExists('rooms');
 
